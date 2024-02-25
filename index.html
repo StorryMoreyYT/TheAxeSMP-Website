@@ -1,10 +1,15 @@
+<!-- simple html document structure with styles -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- document title -->
     <title>Minecraft Server</title>
+    <!-- styling -->
     <style>
+        /* general styling for the body */
         body {
             font-family: "Comic Sans MS", cursive, sans-serif;
             background-color: #f0f0f0;
@@ -13,23 +18,27 @@
             text-align: center;
         }
 
+        /* styling for the header */
         header {
             background-color: #333;
             color: white;
             padding: 1em;
         }
 
+        /* styling for the main section with background image */
         main {
-            background-image: url("images/color1forfirstmcimage.png");
+            background-image: url("images/nature-in-minecraft.png"); /* Background image for the first section */
             background-size: cover;
             padding: 1em;
         }
 
+        /* styling for images */
         img {
             max-width: 100%;
             height: auto;
         }
 
+        /* styling for the Discord button */
         .discord-button {
             display: inline-block;
             padding: 10px 20px;
@@ -40,14 +49,23 @@
             border-radius: 5px;
             margin-top: 20px;
         }
+
+        /* styling for the second section with background image */
+        .second-background {
+            background-image: url("images/p88dciey8in91.png"); /* Background image for the second section */
+            background-size: cover;
+            padding: 1em;
+        }
     </style>
 </head>
 <body>
 
+    <!-- header section -->
     <header>
         <h1>The Axe SMP!</h1>
     </header>
 
+    <!-- main content section -->
     <main>
         <h2>Welcome to Our Minecraft Server!</h2>
         <p>Explore the world, build amazing structures, and have fun with other players.</p>
@@ -59,7 +77,10 @@
         <p>Server IP: 161.35.196.92:2711 (will change)</p>
         <p>Port: 2711 </p>
         <p>Cracked and Official Minecraft users can join</p>
+    </main>
 
+    <!-- second content section with a background image -->
+    <div class="second-background">
         <!-- Image 2 -->
         <img src="images/p88dciey8in91.png" alt="Minecraft Screenshot 2">
 
@@ -80,9 +101,16 @@
 
         <!-- Discord Button -->
         <a class="discord-button" href="https://discord.gg/7GkndvsKBu" target="_blank">Join Our Discord Server</a>
-    </main>
+    </div>
 
+    <!-- footer section -->
     <footer>
+        <p>&copy; 2024 AxeSMP. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
         <p>&copy; 2024 AxeSMP. All rights reserved.</p>
     </footer>
 
